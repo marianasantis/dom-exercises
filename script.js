@@ -28,3 +28,7 @@ divPara.textContent = 'ME TOO!'
 section.appendChild(divPara);
 
 container.appendChild(section);
+
+btn.addEventListener("click", function (e) {
+  console.log(e);
+});
