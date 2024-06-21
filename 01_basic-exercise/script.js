@@ -30,5 +30,5 @@ section.appendChild(divPara);
 container.appendChild(section);
 
 btn.addEventListener("click", function (e) {
-  console.log(e);
+  e.target.style.background = "blue";
 });
